@@ -62,13 +62,15 @@ class ViewController: UIViewController, CLLocationManagerDelegate, GMSMapViewDel
     @objc func add()  {
         leftmenu.delegate = self
         if !menuSelected {
+            var v = DrilDownViewController()
+            self.present(v, animated: true, completion: nil)
             
-        self.view.addSubview(Popupkpiview)
+       // self.view.addSubview(Popupkpiview)
             menuSelected = true
         }
         else
         {
-            self.Popupkpiview.removeFromSuperview()
+            //self.Popupkpiview.removeFromSuperview()
             menuSelected = false
             
         }

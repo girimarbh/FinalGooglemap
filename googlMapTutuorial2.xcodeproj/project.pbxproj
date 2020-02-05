@@ -20,6 +20,10 @@
 		68598D0C23D6FE7A00BF216B /* Popupkpi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68598D0B23D6FE7A00BF216B /* Popupkpi.swift */; };
 		68598D0E23D81DBB00BF216B /* DashboardHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68598D0D23D81DBA00BF216B /* DashboardHeaderView.swift */; };
 		68598D1023D827A100BF216B /* button_location.png in Resources */ = {isa = PBXBuildFile; fileRef = 68598D0F23D827A100BF216B /* button_location.png */; };
+		68598D1823EA9D3200BF216B /* DrilDownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68598D1723EA9D3200BF216B /* DrilDownViewController.swift */; };
+		68C43BA423EAAA5F00DEE6E8 /* KPIBarChartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C43BA323EAAA5F00DEE6E8 /* KPIBarChartCell.swift */; };
+		68C43BA623EAAA9B00DEE6E8 /* KPIChartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C43BA523EAAA9B00DEE6E8 /* KPIChartCell.swift */; };
+		68C43BA823EAC6AC00DEE6E8 /* OperationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C43BA723EAC6AC00DEE6E8 /* OperationCell.swift */; };
 		854E814720E3F9A736A0F83A /* Pods_googlMapTutuorial2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DAC043AD5591435254D70C7 /* Pods_googlMapTutuorial2.framework */; };
 		D9C6282A1FE6378E00D50657 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C628291FE6378D00D50657 /* AppDelegate.swift */; };
 		D9C6282C1FE6378E00D50657 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C6282B1FE6378E00D50657 /* ViewController.swift */; };
@@ -44,6 +48,10 @@
 		68598D0B23D6FE7A00BF216B /* Popupkpi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popupkpi.swift; sourceTree = "<group>"; };
 		68598D0D23D81DBA00BF216B /* DashboardHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardHeaderView.swift; sourceTree = "<group>"; };
 		68598D0F23D827A100BF216B /* button_location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_location.png; sourceTree = "<group>"; };
+		68598D1723EA9D3200BF216B /* DrilDownViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrilDownViewController.swift; sourceTree = "<group>"; };
+		68C43BA323EAAA5F00DEE6E8 /* KPIBarChartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPIBarChartCell.swift; sourceTree = "<group>"; };
+		68C43BA523EAAA9B00DEE6E8 /* KPIChartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPIChartCell.swift; sourceTree = "<group>"; };
+		68C43BA723EAC6AC00DEE6E8 /* OperationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationCell.swift; sourceTree = "<group>"; };
 		8A2BFCD50675CCD7D0CEB2C9 /* Pods-googlMapTutuorial2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-googlMapTutuorial2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-googlMapTutuorial2/Pods-googlMapTutuorial2.debug.xcconfig"; sourceTree = "<group>"; };
 		8DAC043AD5591435254D70C7 /* Pods_googlMapTutuorial2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_googlMapTutuorial2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9C628261FE6378D00D50657 /* googlMapTutuorial2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = googlMapTutuorial2.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,6 +137,10 @@
 				D9C628351FE6378E00D50657 /* Info.plist */,
 				68598D0B23D6FE7A00BF216B /* Popupkpi.swift */,
 				68598D0D23D81DBA00BF216B /* DashboardHeaderView.swift */,
+				68598D1723EA9D3200BF216B /* DrilDownViewController.swift */,
+				68C43BA523EAAA9B00DEE6E8 /* KPIChartCell.swift */,
+				68C43BA723EAC6AC00DEE6E8 /* OperationCell.swift */,
+				68C43BA323EAAA5F00DEE6E8 /* KPIBarChartCell.swift */,
 			);
 			path = googlMapTutuorial2;
 			sourceTree = "<group>";
@@ -272,15 +284,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				68598CE423A8DDEB00BF216B /* FirstViewController.swift in Sources */,
+				68C43BA623EAAA9B00DEE6E8 /* KPIChartCell.swift in Sources */,
 				68598CE223A8D1FC00BF216B /* SecondViewController.swift in Sources */,
 				68598CE623A8F2F700BF216B /* MapHeaderView.swift in Sources */,
 				D9C6283E1FE63A5600D50657 /* InfoPreviewView.swift in Sources */,
 				68598CF023BF052400BF216B /* PieChartCell.swift in Sources */,
 				D9C6282C1FE6378E00D50657 /* ViewController.swift in Sources */,
+				68C43BA823EAC6AC00DEE6E8 /* OperationCell.swift in Sources */,
 				68164641238FF4EE00EC97B3 /* CoustomMarkerView2.swift in Sources */,
 				68598CF423BF38EA00BF216B /* PlantStatusCell.swift in Sources */,
 				D9C6282A1FE6378E00D50657 /* AppDelegate.swift in Sources */,
+				68598D1823EA9D3200BF216B /* DrilDownViewController.swift in Sources */,
 				68598D0C23D6FE7A00BF216B /* Popupkpi.swift in Sources */,
+				68C43BA423EAAA5F00DEE6E8 /* KPIBarChartCell.swift in Sources */,
 				68598D0E23D81DBB00BF216B /* DashboardHeaderView.swift in Sources */,
 				68598CE023A8B98B00BF216B /* LeftSideMenuView.swift in Sources */,
 				D9C6283C1FE639AC00D50657 /* CustomMarkerView.swift in Sources */,
